@@ -5,6 +5,7 @@
 
 body {
   padding-top: 60px;
+  background-color: #DCDCDC;
 }
 
 section {
@@ -43,11 +44,17 @@ textarea {
 
 .yohaku {
   padding-top: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
+  font-weight: bold;
 }
 
 .box {
-  background-color: gray;
-  height: 70vh;
+  width: 100vw;
+  height: 75vh;
+  background-image: url('539807_m.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
