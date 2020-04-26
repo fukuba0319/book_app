@@ -82,3 +82,30 @@ input {
   width: 80%;
   z-index: 10000;
 }
+
+
+.topic-index-single {
+  background-color: #fff;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 3px;
+
+  .topic-text {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}  
+
+.sub-section {
+  font-size: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-height {
+  height: 100px;
+  border-radius: 3px;
+}
