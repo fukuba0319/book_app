@@ -1,3 +1,23 @@
+<div class="row">
+ <div class="col-md-4 col-md-offset-2">
+  <%= search_form_for @q do |f| %>
+    <%= f.label :title_cont, "本のタイトル名を検索すると、投稿されているか調べられます。" %>
+    <%= f.search_field :title_cont %>   
+  
+    <%= f.label :author_cont, "著者名を検索すると、投稿されているか調べられます。" %>
+    <%= f.search_field :author_cont %>
+  
+    <%= f.submit "検索", class: "btn btn-primary" %>
+  <% end %>  
+ </div>
+</div>
+
+<div class="row">
+  <div class="col-md-offset-2">
+   <%= paginate @topics %>
+  </div>
+</div>
+
 <% @topics.each do |topic| %>
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
@@ -22,3 +42,10 @@
     </div>
   </div>
 <% end %>  
+
+
+<div class="row">
+  <div class="col-md-offset-2">
+   <%= paginate @topics %>
+  </div>
+</div>

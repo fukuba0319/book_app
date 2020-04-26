@@ -71,3 +71,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 
 gem 'bcrypt'
+
+gem "ransack"
+
+gem "kaminari"
